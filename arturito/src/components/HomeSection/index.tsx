@@ -6,6 +6,11 @@ const Button = ({ text }: { text: string }) => (
   </a>
 );
 
-const HomeSection = () => <p className="p-3 text-lg">¡Elegí una sección!</p>;
+const HomeSection = () => (
+  <div>
+    <p className="p-3 text-lg">¡Elegí una sección!</p>
+    <Button text="Documentación" />
+  </div>
+);
 
 export default HomeSection;
