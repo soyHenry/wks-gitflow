@@ -12,7 +12,7 @@ const Header = () => (
       className="object-contain h-3/5"
       src="https://img.icons8.com/plasticine/2x/fa314a/death-star.png"
       alt="Death star"
-    />
+    />    
   </header>
 );
 
