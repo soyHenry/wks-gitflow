@@ -4,6 +4,7 @@ import { paths } from '../paths';
 import SectionSelector from '../../components/SectionSelector';
 import Home from '../../components/HomeSection';
 import Planets from '../../components/PlanetsSection';
+import Starships from '../../components/StarshipsSection';
 
 const MainContainer = () => {
   const location = useLocation();
@@ -29,7 +30,8 @@ const MainContainer = () => {
         </Route>
 
         <Route path={paths.starships.href}>
-          <div className="p-3">
+           <Starships />
+         {/*  <div className="p-3">
             <p className="font-bold text-xl"># TODO</p>
             <p>
               Agregar tabla con las starships sacadas de la API. Mostrar para
@@ -41,7 +43,7 @@ const MainContainer = () => {
                 https://swapi.dev/documentation#starships
               </a>
             </p>
-          </div>
+          </div> */}
         </Route>
 
         <Route path={paths.people.href}>
