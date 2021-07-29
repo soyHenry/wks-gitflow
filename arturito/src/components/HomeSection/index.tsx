@@ -1,7 +1,7 @@
-const Button = () => (
-  <a className="mx-auto" href='/'>
-    <div className={`inline-block px-4 py-2 rounded-lg text-white`}>
-      Documentación
+const Button = ({ text }: { text: string }) => (
+  <a className="mx-auto" href="/">
+    <div className="inline-block px-4 py-2 rounded-lg text-white bg-blue-500">
+      {text}
     </div>
   </a>
 );
