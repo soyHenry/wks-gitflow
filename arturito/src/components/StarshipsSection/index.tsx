@@ -15,22 +15,21 @@ const columns = [
     key: 'model',
   },
   {
-  title: 'Manufacturer',
-  dataIndex: 'manufacturer',
-  key: 'manufacturer',
-},
-{
-  title: 'Passengers',
-  dataIndex: 'passengers',
-  key: 'passengers',
-},
-{
-  title: 'Films count',
-  dataIndex: 'films',
-  key: 'films_count',
-  render: (films: string[]) => films.length,
-},
-
+    title: 'Manufacturer',
+    dataIndex: 'manufacturer',
+    key: 'manufacturer',
+  },
+  {
+    title: 'Passengers',
+    dataIndex: 'passengers',
+    key: 'passengers',
+  },
+  {
+    title: 'Films count',
+    dataIndex: 'films',
+    key: 'films_count',
+    render: (films: string[]) => films.length,
+  },
 ];
 
 const Starships = () => {
