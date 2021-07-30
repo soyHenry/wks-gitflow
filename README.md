@@ -1,2 +1,2 @@
 Ir a `/arturito`.
-xd
+xd tu vieja
