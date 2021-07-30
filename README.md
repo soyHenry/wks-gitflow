@@ -1,2 +1,2 @@
 Ir a `/arturito`.
-xdd
+xd
