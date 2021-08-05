@@ -2,6 +2,7 @@ import useSWR from 'swr';
 
 import { swGet } from '../../utils/fetcher';
 import Table from '../Table';
+import { Button } from '../HomeSection';
 
 const columns = [
   {
@@ -45,14 +46,10 @@ const Planets = () => {
     <div>
       <Table columns={columns} data={data.results.slice(0, 3)} /* :D */ />
 
-      <a
-        className="inline-block font-mono text-md text-white font-bold px-4 py-2 bg-yellow-600 rounded-lg"
+      <Button
+        text="Documentación de planetas"
         href="https://swapi.it/documentation#planets"
-        target="_blank"
-        rel="noreferrer"
-      >
-        Documentación
-      </a>
+      />
     </div>
   );
 };
