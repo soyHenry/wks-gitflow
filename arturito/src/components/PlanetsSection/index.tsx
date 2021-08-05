@@ -45,9 +45,12 @@ const Planets = () => {
     <div>
       <Table columns={columns} data={data.results.slice(0, 3)} /* :D */ />
 
-      <div className="bg-yellow-600 inline-block px-2 py-1">
+      <a
+        className="bg-yellow-600 inline-block px-2 py-1"
+        href="https://swapi.it/documentation#planets"
+      >
         Botón
-      </div>
+      </a>
     </div>
   );
 };
