@@ -44,6 +44,10 @@ const Planets = () => {
   return (
     <div>
       <Table columns={columns} data={data.results.slice(0, 3)} /* :D */ />
+
+      <div className="bg-yellow-600 inline-block px-2 py-1">
+        Botón
+      </div>
     </div>
   );
 };
