@@ -42,8 +42,12 @@ const Planets = () => {
   }
 
   const DocumentationButton = () => (
-    <div className="inline-block m-2 px-4 py-2 bg-pink-500 rounded-lg font-bold text-lg shadow-md">Docs</div>
-  )
+    <a href="https://www.swapi.it/documentation#planets">
+      <div className="inline-block m-2 px-4 py-2 bg-pink-500 rounded-lg font-bold text-lg shadow-md text-white">
+        Docs
+      </div>
+    </a>
+  );
 
   return (
     <div>
