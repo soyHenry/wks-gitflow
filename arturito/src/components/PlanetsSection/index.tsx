@@ -46,8 +46,9 @@ const Planets = () => {
       href="https://www.swapi.it/documentation#planets"
       target="_blank"
       rel="noreferrer"
+      className="mb-2"
     >
-      <div className="inline-block m-2 px-4 py-2 bg-pink-500 rounded-lg font-bold text-lg shadow-md text-white">
+      <div className="inline-block m-2 px-4 py-2 bg-pink-500 rounded-lg font-semibold text-md shadow-md text-white">
         Docs
       </div>
     </a>
