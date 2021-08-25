@@ -41,8 +41,13 @@ const Planets = () => {
     return <div className="px-2">Loading...</div>;
   }
 
+  const DocumentationButton = () => (
+    <div className="inline-block m-2 px-4 py-2 bg-pink-500 rounded-lg font-bold text-lg shadow-md">Docs</div>
+  )
+
   return (
     <div>
+      <DocumentationButton />
       <Table columns={columns} data={data.results.slice(0, 3)} /* :D */ />
     </div>
   );
