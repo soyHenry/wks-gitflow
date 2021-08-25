@@ -42,7 +42,11 @@ const Planets = () => {
   }
 
   const DocumentationButton = () => (
-    <a href="https://www.swapi.it/documentation#planets">
+    <a
+      href="https://www.swapi.it/documentation#planets"
+      target="_blank"
+      rel="noreferrer"
+    >
       <div className="inline-block m-2 px-4 py-2 bg-pink-500 rounded-lg font-bold text-lg shadow-md text-white">
         Docs
       </div>
