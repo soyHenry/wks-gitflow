@@ -15,6 +15,8 @@ const HomeSection = () => (
       <a
         className="p-3 bg-yellow-100 font-semibold text-black rounded-lg"
         href="https://www.soyhenry.com"
+        target="_blank"
+        rel="noreferrer"
       >
         Hecho con amor por Henrys
       </a>
