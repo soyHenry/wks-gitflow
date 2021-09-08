@@ -15,7 +15,12 @@ const columns = [
     key: 'model',
   },
   {
-    title: 'Passenger',
+    title: "Manufacturer",
+    dataIndex: "manufacturer",
+    key: "manufacturer",
+  },
+  {
+    title: 'Passengers',
     dataIndex: 'passengers',
     key: 'passengers',
     render: (passengers: string) =>
@@ -24,19 +29,15 @@ const columns = [
         : passengers,
   },
   {
-    title: '# of Films',
-    dataIndex: '# of Films',
-    key: '# of Films',
+    title: 'Films',
+    dataIndex: 'films',
+    key: 'films',
     render: (films: string[]) => films?.length,
   },
-  {
-    title: "Manufacturer",
-    dataIndex: "manufacturer",
-    key: "manufacturer",
-  }
+  
 ];
 
-const Spaceships = () => {
+const Starships = () => {
   const { data, error } = useSWR('/starships', swGet);
 
   if (error) {
@@ -52,4 +53,4 @@ const Spaceships = () => {
   );
 };
 
-export default Spaceships;
+export default Starships;

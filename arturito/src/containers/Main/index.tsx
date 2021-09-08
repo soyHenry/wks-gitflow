@@ -4,7 +4,7 @@ import { paths } from '../paths';
 import SectionSelector from '../../components/SectionSelector';
 import Home from '../../components/HomeSection';
 import Planets from '../../components/PlanetsSection';
-import Spaceships from '../../components/SpaceshipsSection';
+import Starships from '../../components/SpaceshipsSection';
 
 const MainContainer = () => {
   const location = useLocation();
@@ -43,7 +43,7 @@ const MainContainer = () => {
               </a>
             </p>
           </div> */}
-          <Spaceships/>
+          <Starships/>
         </Route>
 
         <Route path={paths.people.href}>
