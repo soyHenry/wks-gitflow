@@ -12,9 +12,12 @@ const HomeSection = () => (
     <Button text="Documentación" href="https://www.swapi.it/documentation" />
 
     <div>
-      <button className="p-3 bg-yellow-100 text-black rounded-lg">
+      <a
+        className="p-3 bg-yellow-100 text-black rounded-lg"
+        href="https://www.soyhenry.com"
+      >
         Hecho con amor por Henrys
-      </button>
+      </a>
     </div>
   </div>
 );
