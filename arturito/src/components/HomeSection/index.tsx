@@ -11,7 +11,11 @@ const HomeSection = () => (
     <p className="text-lg">¡Elegí una sección!</p>
     <Button text="Documentación" href="https://www.swapi.it/documentation" />
 
-    <button className="p-3 bg-yellow-100">Hecho con amor por Henrys</button>
+    <div>
+      <button className="p-3 bg-yellow-100 text-black rounded-lg">
+        Hecho con amor por Henrys
+      </button>
+    </div>
   </div>
 );
 
