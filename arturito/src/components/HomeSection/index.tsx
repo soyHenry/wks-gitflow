@@ -13,7 +13,7 @@ const HomeSection = () => (
 
     <div>
       <a
-        className="p-3 bg-yellow-100 text-black rounded-lg"
+        className="p-3 bg-yellow-100 font-semibold text-black rounded-lg"
         href="https://www.soyhenry.com"
       >
         Hecho con amor por Henrys
