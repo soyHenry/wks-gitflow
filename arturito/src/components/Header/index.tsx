@@ -16,6 +16,6 @@ const Header = () => (
   </header>
 );
 
-//David
+//David.
 
 export default Header;
