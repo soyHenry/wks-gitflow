@@ -4,7 +4,10 @@ import { paths } from '../paths';
 import SectionSelector from '../../components/SectionSelector';
 import Home from '../../components/HomeSection';
 import Planets from '../../components/PlanetsSection';
+
 import People from '../../components/PeopleSection';
+import Species from '../../components/Species';
+
 
 const MainContainer = () => {
   const location = useLocation();
@@ -55,7 +58,11 @@ const MainContainer = () => {
             </p>
           </div>
         </Route>
-
+        <Route path={paths.species.href}>
+          <div className="p-3">
+            <Species/>
+          </div>
+        </Route>
         <Route path={paths.home.href}>
           <Home />
         </Route>
