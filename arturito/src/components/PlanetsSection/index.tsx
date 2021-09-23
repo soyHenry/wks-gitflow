@@ -47,6 +47,8 @@ const Planets = () => {
 
       <a
         href="https://swapi.dev/documentation#planets"
+        target="_blank"
+        rel="noreferrer"
         className="px-4 py-2 rounded-lg bg-blue-500 text-white font-bold"
       >
         Documentation
