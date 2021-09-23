@@ -46,6 +46,8 @@ const Planets = () => {
       <Table columns={columns} data={data.results.slice(0, 3)} /* :D */ />
     </div>
   );
+
+  
 };
 
 export default Planets;
