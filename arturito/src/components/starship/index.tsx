@@ -34,6 +34,7 @@ const starShip = () => {
   return (
     <div>
       <Table columns={columns} data={data.results} /* :D */ />
+      <h1>hola:()</h1>
     </div>
   );
 };
