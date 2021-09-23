@@ -1,6 +1,12 @@
-# Arturito ✨
+# Arturito ✨ 
+
+
+lalalallal
+kdjjcrjvr
+
 
 Instalar dependencias con `yarn` o `npm install`.
+jajajaj
 
 Levantar aplicación con `yarn start` o `npm start`.
 
@@ -30,4 +36,19 @@ En todos los casos se debe trabajar en **ramas**, separando el trabajo en **comm
 Por default cuando hacen PRs de GitHub desde un fork este apuntará al repo original. Asegúrense de que sea desde su feature branch a su main, siempre dentro del repo forkeado. La forma más fácil de hacer esto es revisar cuando estén creando el PR que la URL sea `https://github.com/<SU USUARIO>/wks-gitflow/...` (y no el usuario del repo original, en este caso `soyHenry` ❌). La _base branch_ debe decir **solo** `main` (o `master`), como en la siguiente imagen.
 
 ![image](https://user-images.githubusercontent.com/14017665/128374474-bbc72f3f-1a0c-4a63-8185-7c0b6110e2ef.png)
+
+MaxiArturito
+
+
+agreagr algo 
+
+
+
+
+
+
+Eliza
+
+Hola! soy Matias!
+
 
