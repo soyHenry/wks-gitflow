@@ -38,7 +38,7 @@ const Planets = () => {
     return <div className="px-2">Oh oh!</div>;
   }
   if (!data) {
-    return <div className="px-2">Loading...</div>;
+    return <div className="px-2">Cargando...</div>;
   }
 
   return (
