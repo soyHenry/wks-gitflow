@@ -35,10 +35,10 @@ const Planets = () => {
   const { data, error } = useSWR('/planets', swGet);
 
   if (error) {
-    return <div className="px-2">Oh oh!</div>;
+    return <div className="px-2">Oh no!</div>;
   }
   if (!data) {
-    return <div className="px-2">Loading...</div>;
+    return <div className="px-2">Cargando...</div>;
   }
 
   return (
