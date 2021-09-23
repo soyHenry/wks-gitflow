@@ -4,6 +4,7 @@ lalalallal
 kdjjcrjvr
 
 Instalar dependencias con `yarn` o `npm install`.
+jajajaj
 
 Levantar aplicación con `yarn start` o `npm start`.
 
