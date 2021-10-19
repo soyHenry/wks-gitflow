@@ -4,6 +4,8 @@ import { paths } from '../paths';
 import SectionSelector from '../../components/SectionSelector';
 import Home from '../../components/HomeSection';
 import Planets from '../../components/PlanetsSection';
+import starship from '../../components/starship';
+import StarShip from '../../components/starship';
 
 const MainContainer = () => {
   const location = useLocation();
@@ -32,9 +34,7 @@ const MainContainer = () => {
           <div className="p-3">
             <p className="font-bold text-xl"># TODO</p>
             <p>
-              Agregar tabla con las starships sacadas de la API. Mostrar para
-              cada starship: name, model, manufacturer, passengers, cantidad de
-              films. Codear en un componente aparte tal como {'<Planets>'}.
+              <StarShip />
             </p>
             <p>
               <a href="https://swapi.it/documentation#starships">
