@@ -12,7 +12,8 @@ const MainContainer = () => {
     (pathName) => paths[pathName].href === location.pathname
   );
 
-  
+  //console.log()
+
   const Title = () => (
     <h2 className="px-2 font-serif font-bold text-4xl">
       {pathName ? paths[pathName].name : 'Where are we...?'}
