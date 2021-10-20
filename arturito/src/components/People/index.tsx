@@ -33,7 +33,7 @@ const columns = [
 
   const People = () => {
     const { data, error } = useSWR('/people', swGet);
-    console.log(data)
+    // console.log(data)
   
     if (error) {
       return <div className="px-2">Oh oh!</div>;
