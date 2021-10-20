@@ -17,7 +17,7 @@ const columns = [
     {
       title: 'Height',
       dataIndex: 'height',
-      key: 'height ',
+      key: 'height',
       render: (height: string) => {
         var data = parseInt(height);
         return data/100;
