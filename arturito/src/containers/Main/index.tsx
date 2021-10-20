@@ -13,6 +13,7 @@ const MainContainer = () => {
   );
 
   //console.log()
+  //console.log()
 
   const Title = () => (
     <h2 className="px-2 font-serif font-bold text-4xl">
