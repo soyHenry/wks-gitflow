@@ -40,10 +40,22 @@ const Planets = () => {
   if (!data) {
     return <div className="px-2">Loading...</div>;
   }
+  
+  const handeNext=()=>{
+    data.next?swGet(data.next):console.log('nothig next')
+  }
+
+  const handlePrev=()=>{
+    data.prev?swGet(data.prev):console.log('dont have prev')
+  }
 
   return (
     <div>
-      <Table columns={columns} data={data.results.slice(0, 3)} /* :D */ />
+      <Table columns={columns} data={data.results} /* :D */ />
+      <div>
+        <button onClick={handlePrev}>{' <- '}</button>
+        <button onClick={handeNext}>{' -> '}</button>
+      </div>
     </div>
   );
 };
