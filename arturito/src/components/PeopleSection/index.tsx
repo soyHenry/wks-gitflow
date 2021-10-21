@@ -29,9 +29,20 @@ const columns = [
 ];
 
 const People = () => {
-  return (
-      <h1>PEOPLE</h1>
-  )
+    const { data, error } = useSWR('/people', swGet);
+
+    if (error) {
+      return <div className="px-2">Oh oh!</div>;
+    }
+    if (!data) {
+      return <div className="px-2">Loading...</div>;
+    }
+  
+    return (
+      <div>
+        <Table columns={columns} data={data.results}/>
+      </div>
+    );
 };
 
 export default People;
