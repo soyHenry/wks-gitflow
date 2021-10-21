@@ -27,7 +27,7 @@ const columns = [
     render: (films: string[]) => films.length,
   },
 ];
-
+//este es un comentario de prueba para agregarle cambios al repo
 const People = () => {
     const { data, error } = useSWR('/people', swGet);
 
