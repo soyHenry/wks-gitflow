@@ -29,12 +29,12 @@ const columns = [
     //     ? parseInt(population).toLocaleString('es-AR')
     //     : population,
   },
-//   {
-//     title: 'Residents count',
-//     dataIndex: 'residents',
-//     key: 'residents_count',
-//     render: (residents: string[]) => residents.length,
-//   },
+  //   {
+  //     title: 'Residents count',
+  //     dataIndex: 'residents',
+  //     key: 'residents_count',
+  //     render: (residents: string[]) => residents.length,
+  //   },
 ];
 
 const People = () => {
