@@ -20,7 +20,7 @@ const columns = [
     key: 'height',
   },
   {
-    title: 'Films',
+    title: 'Films Count',
     dataIndex: 'films',
     key: 'films',
     render: (films: string[]) => films.length,
