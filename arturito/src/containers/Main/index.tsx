@@ -4,7 +4,7 @@ import { paths } from '../paths';
 import SectionSelector from '../../components/SectionSelector';
 import Home from '../../components/HomeSection';
 import Planets from '../../components/PlanetsSection';
-
+import People from '../../components/PeopleSection';
 const MainContainer = () => {
   const location = useLocation();
   const pathName = Object.keys(paths).find(
@@ -57,6 +57,7 @@ const MainContainer = () => {
                 https://swapi.it/documentation#people
               </a>
             </p>
+            <People />
           </div>
         </Route>
 

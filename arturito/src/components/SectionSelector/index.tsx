@@ -1,5 +1,4 @@
 import { Link, useLocation } from 'react-router-dom';
-
 import { paths, Path } from '../../containers/paths';
 
 const SectionButton = ({ path }: { path: Path }) => {
