@@ -5,6 +5,10 @@ import SectionSelector from '../../components/SectionSelector';
 import Home from '../../components/HomeSection';
 import Planets from '../../components/PlanetsSection';
 
+import People from '../../components/PeopleSection';
+import Species from '../../components/Species';
+
+
 const MainContainer = () => {
   const location = useLocation();
   const pathName = Object.keys(paths).find(
@@ -46,12 +50,7 @@ const MainContainer = () => {
 
         <Route path={paths.people.href}>
           <div className="p-3">
-            <p className="font-bold text-xl"># TODO</p>
-            <p>
-              Agregar tabla con los personajes sacados de la API. Mostrar para
-              cada persona: name, birth_year, height (en metros), cantidad de
-              films. Codear en un componente aparte tal como {'<Planets>'}.
-            </p>
+           <People/>
             <p>
               <a href="https://swapi.it/documentation#people">
                 https://swapi.it/documentation#people
@@ -59,7 +58,11 @@ const MainContainer = () => {
             </p>
           </div>
         </Route>
-
+        <Route path={paths.species.href}>
+          <div className="p-3">
+            <Species/>
+          </div>
+        </Route>
         <Route path={paths.home.href}>
           <Home />
         </Route>
