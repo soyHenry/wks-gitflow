@@ -10,6 +10,7 @@ const HomeSection = () => (
   <div className="p-3 space-y-3">
     <p className="text-lg">¡Elegí una sección!</p>
     <Button text="Documentación" href="https://www.swapi.it/documentation" />
+    <p>Cambio en nueva rama</p>
   </div>
 );
 
