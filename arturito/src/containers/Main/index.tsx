@@ -1,5 +1,5 @@
 import { Switch, Route, useLocation } from 'react-router-dom';
-
+import { People } from '../../components/PeopleSection/people';
 import { paths } from '../paths';
 import SectionSelector from '../../components/SectionSelector';
 import Home from '../../components/HomeSection';
@@ -57,6 +57,7 @@ const MainContainer = () => {
                 https://swapi.it/documentation#people
               </a>
             </p>
+            <People />
           </div>
         </Route>
 
