@@ -29,6 +29,12 @@ const columns = [
     key: 'residents_count',
     render: (residents: string[]) => residents.length,
   },
+  {
+    title: 'States',
+    dataIndex: 'region',
+    key: 'region_count',
+    render: (residents: string[]) => residents.length,
+  },
 ];
 
 const Planets = () => {
