@@ -8,7 +8,7 @@ const Button = ({ text, href }: { text: string; href: string }) => (
 
 const HomeSection = () => (
   <div className="p-3 space-y-3">
-    <p className="text-lg">¡Elegí una sección!</p>
+    <h2 className="text-lg">¡Elegí una sección!</h2>
     <Button text="Documentación" href="https://www.swapi.it/documentation" />
   </div>
 );
