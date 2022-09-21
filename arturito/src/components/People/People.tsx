@@ -40,7 +40,7 @@ const People = () => {
 
   return (
     <div>
-        <h1>prueba</h1>
+        <h1>prueba 2</h1>
         <Table columns={columns} data={data.results}/>
     </div>
   )
