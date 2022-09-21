@@ -4,6 +4,7 @@ import { paths } from '../paths';
 import SectionSelector from '../../components/SectionSelector';
 import Home from '../../components/HomeSection';
 import Planets from '../../components/PlanetsSection';
+import People from '../../components/People/People';
 
 const MainContainer = () => {
   const location = useLocation();
@@ -53,10 +54,11 @@ const MainContainer = () => {
               films. Codear en un componente aparte tal como {'<Planets>'}.
             </p>
             <p>
-              <a href="https://swapi.it/documentation#people">
-                https://swapi.it/documentation#people
+              <a href="https://swapi.dev/api/people/?search=#people">
+                https://swapi.dev/api/people/?search=#people
               </a>
             </p>
+            <People />
           </div>
         </Route>
 
