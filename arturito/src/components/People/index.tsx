@@ -39,7 +39,7 @@ const People = () => {
 
   return (
     <div>
-      <Table columns={columns} data={data.results} />
+      <Table columns={columns} data={data.results.slice(0, 3)} />
     </div>
   );
 };
