@@ -6,7 +6,7 @@ const Button = ({ text, href }: { text: string; href: string }) => (
   </a>
 );
 
- /*hO,A QUE TAL ESTOI ES UN COMENTARIO DE PRUEBA ASHJDASHD */
+ /*hO,A QUE TAL ESTOI ES UN COMENTARIO DE PRUEBA ASHJDASHD  asdkuasghbdjkhsdbgliajbdfp bhasdñouahs`fi*/
 
 const HomeSection = () => (
   <div className="p-3 space-y-3">
