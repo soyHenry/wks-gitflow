@@ -6,7 +6,7 @@ const Header = () => (
         src="https://assets.soyhenry.com/henry-landing/assets/Henry/logo-white.png"
         alt="Henry logo"
       />
-      <p className="my-0 font-serif text-gray-200 text-4xl">Arturito</p>
+      <p className="my-0 font-serif text-gray-200 text-4xl">Arturito »</p>
     </div>
     <img
       className="object-contain h-3/5"
