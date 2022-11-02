@@ -13,5 +13,7 @@ const HomeSection = () => (
   </div>
 );
 
+///SEGUDO MERGE/////
+
 ///hola hola//asddadada
 export default HomeSection;
