@@ -40,7 +40,8 @@ const Planets = () => {
   if (!data) {
     return <div className="px-2">Loading...</div>;
   }
-
+  console.log(data);
+  
   return (
     <div>
       <Table columns={columns} data={data.results.slice(0, 3)} /* :D */ />
