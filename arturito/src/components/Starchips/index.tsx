@@ -5,7 +5,7 @@ import Table from '../Table';
 
 const columns = [
   {
-    title: 'Names',
+    title: 'Name',
     dataIndex: 'name',
     key: 'name',
   },
