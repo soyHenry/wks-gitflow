@@ -4,6 +4,7 @@ import { paths } from '../paths';
 import SectionSelector from '../../components/SectionSelector';
 import Home from '../../components/HomeSection';
 import Planets from '../../components/PlanetsSection';
+import People from '../../components/PeoplesSection';
 
 const MainContainer = () => {
   const location = useLocation();
@@ -45,7 +46,7 @@ const MainContainer = () => {
         </Route>
 
         <Route path={paths.people.href}>
-          <div className="p-3">
+          {/* <div className="p-3">
             <p className="font-bold text-xl"># TODO</p>
             <p>
               Agregar tabla con los personajes sacados de la API. Mostrar para
@@ -57,7 +58,8 @@ const MainContainer = () => {
                 https://swapi.it/documentation#people
               </a>
             </p>
-          </div>
+          </div> */}
+          <People />
         </Route>
 
         <Route path={paths.home.href}>
