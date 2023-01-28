@@ -1,9 +1,10 @@
 import { Switch, Route, useLocation } from 'react-router-dom';
-
 import { paths } from '../paths';
 import SectionSelector from '../../components/SectionSelector';
 import Home from '../../components/HomeSection';
 import Planets from '../../components/PlanetsSection';
+import { Table } from 'antd';
+import StarShips from '../../components/StarshipsSection/Starships.jsx';
 
 const MainContainer = () => {
   const location = useLocation();
@@ -16,6 +17,8 @@ const MainContainer = () => {
       {pathName ? paths[pathName].name : 'Where are we...?'}
     </h2>
   );
+
+
 
   return (
     <div className="container p-4 space-y-4">
@@ -32,12 +35,10 @@ const MainContainer = () => {
           <div className="p-3">
             <p className="font-bold text-xl"># TODO</p>
             <p>
-              Agregar tabla con las starships sacadas de la API. Mostrar para
-              cada starship: name, model, manufacturer, passengers, cantidad de
-              films. Codear en un componente aparte tal como {'<Planets>'}.
+            <StarShips/>
             </p>
             <p>
-              <a href="https://swapi.it/documentation#starships">
+              <a href="https://swapi.div/documentation#starships">
                 https://swapi.it/documentation#starships
               </a>
             </p>
