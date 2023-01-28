@@ -7,5 +7,5 @@ export const paths: Record<string, Path> = {
   home: { name: 'Home', href: '/' },
   planets: { name: 'Planets', href: '/planets' },
   starships: { name: 'Starships', href: '/starships' },
-  people: { name: 'People', href: '/people' },
+  people: { name: 'Peopl', href: '/people' },
 };
