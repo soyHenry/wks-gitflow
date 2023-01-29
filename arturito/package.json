@@ -29,6 +29,7 @@
     ]
   },
   "dependencies": {
+    "8": "0.0.1",
     "@craco/craco": "^6.2.0",
     "@testing-library/jest-dom": "^5.11.4",
     "@testing-library/react": "^11.1.0",
@@ -50,10 +51,10 @@
   "devDependencies": {
     "@types/axios": "^0.14.0",
     "@types/react-router-dom": "^5.1.8",
-    "autoprefixer": "^9",
+    "autoprefixer": "^9.8.8",
     "eslint-config-prettier": "8.3.0",
-    "postcss": "^7",
+    "postcss": "^7.0.39",
     "prettier": "2.3.2",
-    "tailwindcss": "npm:@tailwindcss/postcss7-compat"
+    "tailwindcss": "npm:@tailwindcss/postcss7-compat@^2.2.17"
   }
 }
