@@ -11,6 +11,7 @@ const HomeSection = () => (
     <p className="text-lg">¡Elegí una sección!</p>
     <Button text="Documentación" href="https://www.swapi.it/documentation" />
     <h3>viva la cerveza</h3>
+    <p>$$$$</p>
   </div>
 );
 
