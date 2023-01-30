@@ -4,6 +4,7 @@ import { paths } from '../paths';
 import SectionSelector from '../../components/SectionSelector';
 import Home from '../../components/HomeSection';
 import Planets from '../../components/PlanetsSection';
+import Starships from '../../components/Starships';
 
 const MainContainer = () => {
   const location = useLocation();
@@ -29,6 +30,7 @@ const MainContainer = () => {
         </Route>
 
         <Route path={paths.starships.href}>
+          <Starships/>
           <div className="p-3">
             <p className="font-bold text-xl"># TODO</p>
             <p>
