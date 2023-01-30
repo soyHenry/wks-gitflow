@@ -4,6 +4,7 @@ import { paths } from '../paths';
 import SectionSelector from '../../components/SectionSelector';
 import Home from '../../components/HomeSection';
 import Planets from '../../components/PlanetsSection';
+import Starships from '../../components/StarshipsSection';
 
 const MainContainer = () => {
   const location = useLocation();
@@ -41,6 +42,7 @@ const MainContainer = () => {
                 https://swapi.dev/documentation#starships
               </a>
             </p>
+            <Starships />
           </div>
         </Route>
 
