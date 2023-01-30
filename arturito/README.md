@@ -6,7 +6,7 @@ Levantar aplicación con `yarn start` o `npm start`.
 
 ## Descripción
 
-Esta pequeña aplicación create-react-app con [TypeScript](https://typescriptlang.org) y otras bondades (como [TailwindCSS](https://tailwindcss.com), [swr](https://swr.vercel.app) y [prettier](https://prettier.io)) tiene una sección Planets que obtiene los planetas de Star Wars mediante la API libre (no necesita key) [SWAPI](https://www.swapi.it).
+Esta pequeña aplicación create-react-app con [TypeScript](https://typescriptlang.org) y otras bondades (como [TailwindCSS](https://tailwindcss.com), [swr](https://swr.vercel.app) y [prettier](https://prettier.io)) tiene una sección Planets que obtiene los planetas de Star Wars mediante la API libre (no necesita key) [SWAPI](https://swapi.dev).
 
 ## Homework 👷
 
