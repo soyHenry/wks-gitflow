@@ -31,6 +31,8 @@ const columns = [
   },
 ];
 
+// hola como tas 
+
 const Planets = () => {
   const { data, error } = useSWR('/planets', swGet);
 
