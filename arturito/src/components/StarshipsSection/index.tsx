@@ -10,31 +10,31 @@ const columns = [
     key: 'name',
   },
   {
-    title: 'Climate',
-    dataIndex: 'climate',
-    key: 'climate',
+    title: 'films',
+    dataIndex: "films",
+    render: (films: string[]) => films.length,
+    key: 'films',
   },
   {
-    title: 'Population',
-    dataIndex: 'population',
-    key: 'population',
-    render: (population: string) =>
-      parseInt(population)
-        ? parseInt(population).toLocaleString('es-AR')
-        : population,
+    title: 'model',
+    dataIndex: 'model',
+    key: 'model',
   },
   {
-    title: 'Residents count',
-    dataIndex: 'residents',
-    key: 'residents_count',
-    render: (residents: string[]) => residents.length,
+    title: 'passengers',
+    dataIndex: 'passengers',
+    key: 'passengers',
+  },
+  {
+    title: 'manufacturer',
+    dataIndex: 'manufacturer',
+    key: 'manufacturer',
   },
 ];
 
-// hola como tas 
 
-const Planets = () => {
-  const { data, error } = useSWR('/planets', swGet);
+const Starships = () => {
+  const { data, error } = useSWR('/starships', swGet);
 
   if (error) {
     return <div className="px-2">Oh oh!</div>;
@@ -51,4 +51,4 @@ const Planets = () => {
   );
 };
 
-export default Planets;
+export default Starships;
