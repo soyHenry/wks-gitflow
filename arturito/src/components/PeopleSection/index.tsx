@@ -11,29 +11,25 @@ const columns = [
     key: 'name',
   },
   {
-    title: 'Climate',
-    dataIndex: 'climate',
-    key: 'climate',
+    title: 'BirthDate',
+    dataIndex: 'birth_year',
+    key: 'birth_year',
   },
   {
-    title: 'Population',
-    dataIndex: 'population',
-    key: 'population',
-    render: (population: string) =>
-      parseInt(population)
-        ? parseInt(population).toLocaleString('es-AR')
-        : population,
+    title: 'Height',
+    dataIndex: 'height',
+    key: 'height',
   },
   {
-    title: 'Residents count',
-    dataIndex: 'residents',
-    key: 'residents_count',
-    render: (residents: string[]) => residents.length,
+    title: 'Films',
+    dataIndex: 'films',
+    key: 'films',
+    render: (films: string[]) => films.length,
   },
 ];
 
 const Planets = () => {
-  const { data, error } = useSWR('/planets', swGet);
+  const { data, error } = useSWR('/people', swGet);
 
   if (error) {
     return <div className="px-2">Oh oh!</div>;
