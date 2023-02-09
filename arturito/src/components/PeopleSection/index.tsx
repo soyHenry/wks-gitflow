@@ -2,7 +2,7 @@ import useSWR from 'swr';
 
 import { swGet } from '../../utils/fetcher';
 import Table from '../Table';
-
+// height (en metros),
 const columns = [
   {
     title: 'Name',
@@ -10,29 +10,29 @@ const columns = [
     key: 'name',
   },
   {
-    title: 'Climate',
-    dataIndex: 'climate',
-    key: 'climate',
+    title: 'birth_year',
+    dataIndex: 'birth_year',
+    key: 'birth_year',
   },
   {
-    title: 'Population',
-    dataIndex: 'population',
-    key: 'population',
-    render: (population: string) =>
-      parseInt(population)
-        ? parseInt(population).toLocaleString('es-AR')
-        : population,
+    title: 'height',
+    dataIndex: 'height',
+    key: 'height',
+    render: (height: string) =>
+      parseInt(height)
+        ? parseInt(height).toLocaleString('es-AR')
+        : height,
   },
   {
-    title: 'Residents count',
-    dataIndex: 'residents',
+    title: 'films',
+    dataIndex: 'films',
     key: 'residents_count',
-    render: (residents: string[]) => residents.length,
+    render: (films: string[]) => films.length,
   },
 ];
 
-const Planets = () => {
-  const { data, error } = useSWR('/planets', swGet);
+const People = () => {
+  const { data, error } = useSWR('/people', swGet);
 
   if (error) {
     return <div className="px-2">Oh oh!</div>;
@@ -48,4 +48,4 @@ const Planets = () => {
   );
 };
 
-export default Planets;
+export default People;
