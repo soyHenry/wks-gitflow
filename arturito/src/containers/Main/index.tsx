@@ -4,6 +4,7 @@ import { paths } from '../paths';
 import SectionSelector from '../../components/SectionSelector';
 import Home from '../../components/HomeSection';
 import Planets from '../../components/PlanetsSection';
+import People from '../../components/People/People';
 
 const MainContainer = () => {
   const location = useLocation();
@@ -45,6 +46,7 @@ const MainContainer = () => {
         </Route>
 
         <Route path={paths.people.href}>
+          <People/>
           <div className="p-3">
             <p className="font-bold text-xl"># TODO</p>
             <p>
