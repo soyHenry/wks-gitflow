@@ -4,7 +4,7 @@ import { paths } from '../paths';
 import SectionSelector from '../../components/SectionSelector';
 import Home from '../../components/HomeSection';
 import Planets from '../../components/PlanetsSection';
-
+//Comentario de prueba 1
 const MainContainer = () => {
   const location = useLocation();
   const pathName = Object.keys(paths).find(
