@@ -3,8 +3,8 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "start": "craco start",
-    "build": "craco build",
+    "start": "craco --openssl-legacy-provider start",
+    "build": "craco --openssl-legacy-provider build",
     "test": "craco test",
     "prettier": "prettier --write .",
     "prettier:complain": "prettier --check .",
