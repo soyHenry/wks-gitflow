@@ -37,7 +37,7 @@ jobs:
 
       - name: Run tests
         run: |
-          craco test
+          yarn run test
 
     # - name: Check prettier
     #   run: |
