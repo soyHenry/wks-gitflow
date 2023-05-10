@@ -32,8 +32,8 @@ const columns = [
 ];
 
 const Planets = () => {
-  const { data, error } = useSWR('/planets', swGet);
-
+  const { data, error } = useSWR('/planets/', swGet);
+ 
   if (error) {
     return <div className="px-2">Oh oh!</div>;
   }
@@ -43,7 +43,7 @@ const Planets = () => {
 
   return (
     <div>
-      <Table columns={columns} data={data.results.slice(0, 3)} /* :D */ />
+      <Table columns={columns} data={data.results} /* :D */ />
     </div>
   );
 };
