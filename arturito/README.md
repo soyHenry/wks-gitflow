@@ -19,11 +19,9 @@ En grupos de 2, trabajar con una metodología Git Flow para cumplir 4 funcionali
 
 En todos los casos se debe trabajar en **ramas**, separando el trabajo en **commits pequeños**, con **PRs a main** que deben ser revisados por el otro integrante. ¡Lo normal es que haya varios comentarios! **Hacer las correcciones** que propone el compañero.
 
-
-*Sugerencia:* aprovechar lo dado para armar las nuevas vistas con el mínimo código posible, evitando repetir código que no haga falta.
+_Sugerencia:_ aprovechar lo dado para armar las nuevas vistas con el mínimo código posible, evitando repetir código que no haga falta.
 
 ¡Seguir las **buenas prácticas** de las que hablamos! 👉🏼 https://gist.github.com/henry-labs/fde7766161fb098a8e4edc04cc4caa97
-
 
 #### Advertencia al crear los PRs
 
@@ -31,5 +29,6 @@ Por default cuando hacen PRs de GitHub desde un fork este apuntará al repo orig
 
 ![image](https://user-images.githubusercontent.com/14017665/128374474-bbc72f3f-1a0c-4a63-8185-7c0b6110e2ef.png)
 
-
 **Maintainer:** @MartinCura
+//
+//
