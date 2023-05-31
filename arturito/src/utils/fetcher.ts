@@ -5,5 +5,7 @@ const baseURL = 'https://www.swapi.it/api';
 
 // Holis
 
+//holis de nuevo
+
 export const swGet = (url: string) =>
   axios.get(url, { baseURL }).then((res) => res.data);
