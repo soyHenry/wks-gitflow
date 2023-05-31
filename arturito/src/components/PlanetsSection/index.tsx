@@ -33,7 +33,6 @@ const columns = [
 
 const Planets = () => {
   const { data, error } = useSWR('/planets', swGet);
-  console.log(data.results.length)
 
   if (error) {
     return <div className="px-2">Oh oh!</div>;
