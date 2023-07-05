@@ -1,5 +1,4 @@
 import useSWR from 'swr';
-
 import { swGet } from '../../utils/fetcher';
 import Table from '../Table';
 
@@ -43,7 +42,7 @@ const Planets = () => {
 
   return (
     <div>
-      <Table columns={columns} data={data.results.slice(0, 3)} /* :D */ />
+      <Table columns={columns} data={data.results} />
     </div>
   );
 };
