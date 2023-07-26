@@ -22,7 +22,6 @@ jobs:
     - name: Get yarn cache directory path
       id: yarn-cache-dir-path
       run: echo "::set-output name=dir::$(yarn cache dir)"
-
     - name: Restore dependencies cache if it exists
       uses: actions/cache@v2
       id: yarn-cache
