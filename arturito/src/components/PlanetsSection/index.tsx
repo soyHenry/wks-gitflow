@@ -9,7 +9,7 @@ const columns = [
     dataIndex: 'name',
     key: 'name',
   },
-  { 
+  {
     title: 'Climate',
     dataIndex: 'climate',
     key: 'climate',
