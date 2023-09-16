@@ -4,4 +4,4 @@ import axios from 'axios';
 const baseURL = 'https://swapi.dev/api' // 'https://www.swapi.it/api';
 
 export const swGet = (url: string) =>
-  axios.get(url, { baseURL }).then((res) => res.data);
+  axios.get(url, { baseURL }).then((res) => res.data); // Hola
