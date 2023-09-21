@@ -22,11 +22,14 @@ const MainContainer = () => {
       <SectionSelector />
 
       <Title />
+      { /* @ts-expect-error Server Component */}
 
       <Switch>
+     { /* @ts-expect-error Server Component */}
         <Route path={paths.planets.href}>
           <Planets />
         </Route>
+        { /* @ts-expect-error Server Component */}
 
         <Route path={paths.starships.href}>
           <div className="p-3">
@@ -43,6 +46,7 @@ const MainContainer = () => {
             </p>
           </div>
         </Route>
+        { /* @ts-expect-error Server Component */}
 
         <Route path={paths.people.href}>
           <div className="p-3">
@@ -59,6 +63,7 @@ const MainContainer = () => {
             </p>
           </div>
         </Route>
+        { /* @ts-expect-error Server Component */}
 
         <Route path={paths.home.href}>
           <Home />
