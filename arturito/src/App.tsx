@@ -10,5 +10,3 @@ const App = () => (
 );
 
 export default App;
-
-// DELFI
