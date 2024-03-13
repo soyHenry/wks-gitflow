@@ -19,10 +19,11 @@ const SectionButton = ({ path }: { path: Path }) => {
 
 const SectionSelector = () => (
   <div className="p-2 space-x-4">
-    {Object.keys(paths).map((path) => (
-      <SectionButton path={paths[path]} />
+    {Object.keys(paths).map((pathKey, index) => (
+      <SectionButton key={index} path={paths[pathKey]} />
     ))}
   </div>
 );
+
 
 export default SectionSelector;
