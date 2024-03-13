@@ -12,3 +12,4 @@ const CustomTable = ({ columns, data }: { columns: Column[]; data: any[] }) => (
 );
 
 export default CustomTable;
+// 
